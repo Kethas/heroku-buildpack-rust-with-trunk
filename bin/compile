@@ -151,6 +151,9 @@ if [ $RUST_INSTALL_DIESEL -eq 1 ]; then
   cp $(which diesel) target/release/
 fi
 
+# Add wasm32-unknown-unknown target
+rustup target add wasm32-unknown-unknown
+
 # Install Trunk
 cargo install trunk --root ./trunk --target-dir ./trunk/target
 
