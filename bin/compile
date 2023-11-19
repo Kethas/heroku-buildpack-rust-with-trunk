@@ -152,7 +152,7 @@ if [ $RUST_INSTALL_DIESEL -eq 1 ]; then
 fi
 
 # Install Trunk
-cargo install trunk
+cargo install trunk --path ./trunk --target-dir ./trunk/target
 
 # Build with Trunk
 trunk build
