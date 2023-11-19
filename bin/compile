@@ -153,3 +153,6 @@ fi
 
 # Install Trunk
 cargo install trunk
+
+# Build with Trunk
+trunk build
