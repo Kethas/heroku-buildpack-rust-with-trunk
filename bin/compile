@@ -155,7 +155,7 @@ fi
 rustup target add wasm32-unknown-unknown
 
 # Install Trunk
-cargo install trunk --root ./trunk --target-dir ./trunk/target
+cargo install trunk --root $CACHE_DIR/trunk --target-dir $CACHE_DIR/trunk/target
 
 # Build with Trunk
 trunk build
