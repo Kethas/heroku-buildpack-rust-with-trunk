@@ -158,4 +158,4 @@ rustup target add wasm32-unknown-unknown
 cargo install trunk --root $CACHE_DIR/trunk --target-dir $CACHE_DIR/trunk/target
 
 # Build with Trunk
-trunk build
+$CACHE_DIR/trunk/bin/trunk build
